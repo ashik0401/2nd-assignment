@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 #all{
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -18,13 +19,45 @@
 .orange{
     color:orange;
 }
+.three{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:rgba(32, 32, 32, 1) ;
+    background-color: ;
+}
+
+.four{
+    
+    font-weight: 500;
+    font-size:0.99rem ;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    color:rgba(128, 128, 128, 1) ;
+
+    
+    
+}
+.btn-btn{
+    font-weight: bold;
+    font-size:0.99rem ;
+    border: none;
+    background-color: transparent;
+    padding-bottom:58.48px ;
+    padding-top: 38.67px;
+
+}
+
 .display-flex{
     display: flex;
+   
 }
 .head{
     padding:20px 140px ;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid orange;
+    border: none;
+    
     
 }
 .head1{
@@ -34,6 +67,9 @@
 .head1 img{
     width: 62px;
     height: 62px;
+}
+.head2{
+    margin-left: auto;
 }
 .school{
     font-weight: bold;
@@ -48,6 +84,7 @@
     
      
 }
+
 li{
     list-style: none;
     
@@ -62,6 +99,7 @@ li > a{
     height: 50px;
     border-radius:12px ;
     padding: 10px 30px;
+    
     
 }
 .container{
@@ -93,6 +131,7 @@ li > a{
     padding: 10px 30px;
     color: white;
     border: none;
+    cursor: pointer;
 }
 .ss{
     max-width:50px;
@@ -100,9 +139,11 @@ li > a{
     padding-top: 5px;
 }
 .bg{
-    
+    background-image: url("../assets/bgg.png");
     background-position: center;
     background-size: cover;
+    width: 100%;
+    
     
 }
 .st{ 
@@ -113,21 +154,127 @@ li > a{
     font-size: 2.875rem;
     color:rgba(0, 0, 0, 1) ;
     
+    
 }
 .standard-box{
-    padding: 0 140px;
+    margin: 0 140px;
     padding-bottom: 200px;
     text-align: center;
-    gap: 400px;
+    gap: 200px;
+ 
+
 }
+
+
 .img1{
-    background-color:rgba(222, 245, 255, 1) ;
+    border: 2px solid;
     border-radius: 18.86px;
     box-shadow: inset rgba(0, 0, 0, 0.05);
+   
     
     
-    border: 2px solid rgba(222, 245, 255, 1);
     
+}
+.be{
+    border: 1px solid rgba(100, 200, 255, 1);
+    background-color:rgba(222, 245, 255, 1); 
+}
+.hey{
+    border: 1px solid rgba(240, 170, 0, 1);
+    background-color:rgba(255, 244, 220, 1); 
+}
+.bd{
+    border: 1px solid rgba(135, 0, 255, 1);
+    background-color:rgba(242, 232, 255, 1); 
+}
+.hover{
+    cursor: pointer;
+}
+.hover:hover{
+   
+    transform: scale(1.1);
+    transition: trasform 0.3s ease;
+}
+.are{
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+     gap: 10px;
+     padding-bottom: 60px;
+     font-size:1.5rem ;
+    } 
+.l{
+    
+    background-color: orange;
+    border-radius: 100%;
+    padding: 1% 1.2%;
+    color: white;
+   border: none;
+} 
+
+
+
+.r{
+    
+    background-color: orange;
+    border-radius: 100%;
+    padding: 1% 1.2%;
+    color: white;
+    border: none;
+} 
+
+.fa-sharp{
+    font-size: 40px;
+    visibility: hidden;
+}
+.stories1{
+    grid-area: "stories1";
+}
+.stories2{
+    grid-area: "stories2";
+}
+.stories3{
+    grid-area: "stories3";
+}
+.stories4{
+    grid-area: "stories4";
+}
+.stories5{
+    grid-area: "stories5";
+}
+
+.stories{
+    padding: 0 140px;
+}
+.our{
+    display: flex;
+    justify-content: center;
+
+}
+.stories1{
+    border: 2px solid ;
+    max-width: 800px;
+
+}
+.stories1 img{
+     max-width:100%;
+     height: auto;
+     
+}
+.date{
+    font-weight: 500;
+    font-size:0.95rem ;
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    color:rgba(255, 255, 255, 1);
+    margin-left: 38.35px;
+    padding: 15px 15px;
+    border-radius:47.93px ;
+    position: absolute;
+    margin-top: -30px;
+    
+
+
 }
 
     
@@ -137,7 +284,7 @@ li > a{
 
 @media screen and (max-width:576px){
 
-     
+    .standard-box,
     .head2,
     .head3,
     .container,
@@ -147,6 +294,17 @@ li > a{
         overflow-x: hidden;
         margin: 0 auto;
         padding: 0 auto;}
+
+    .standard-box{
+        flex-direction: column;
+        padding: 0 0;
+        row-gap: 10px;
+        
+    }
+    .st{
+        font-weight: bold;
+        font-size:2rem ;
+    }
     
     .head3,
     .btn,
@@ -160,6 +318,7 @@ li > a{
     .head{
       padding-left: 0%;
       margin-top: 10%;
+      padding-right: 0%;
       
       height:0px;
     }
@@ -168,4 +327,51 @@ li > a{
         font-size: 2rem;
         
     }
-}  
+    .hover:hover{
+            transform: none;
+            transition:  none;
+    }
+    .are{
+        padding:5%;
+    }
+    .r{
+    
+        background-color: orange;
+        border-radius: 100%;
+        padding: 2% 3%;
+        color: white;
+    }
+    .l{
+    
+        background-color: orange;
+        border-radius: 100%;
+        padding: 2% 3%;
+        color: white;
+       
+    }
+    .fa-sharp{
+        font-size: 40px;
+        visibility: inherit;
+        
+    }
+    .head1 img{
+        padding-bottom: 50px;
+    }
+    .fa-sharp{
+        padding-bottom:50px ;
+    }
+    .head{
+        border-bottom: 2px solid orange;
+    }
+
+    
+    
+
+
+
+
+
+
+
+
+}   
