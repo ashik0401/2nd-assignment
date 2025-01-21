@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+#all{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+.font{
+    font-size:1.25rem
+}
+.black{
+    color: black;
+}
+.sky{
+    color:rgba(1, 172, 253, 1);
+}
+.orange{
+    color:orange;
+}
+.display-flex{
+    display: flex;
+}
+.head{
+    padding:20px 140px ;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.head1{
+    gap: 11px;
+    align-items: center;
+}
+.head1 img{
+    width: 62px;
+    height: 62px;
+}
+.school{
+    font-weight: bold;
+    font-size: 2rem;
+    color: var(--color);
+   
+}
+
+.head3{
+     gap:32px ;
+     padding-right:405px;
+    
+     
+}
+li{
+    list-style: none;
+    
+}
+li > a{
+    text-decoration: none;
+    padding: 16px auto;
+}
+.btn{
+    background-color:orange ;
+    width: 197px;
+    height: 50px;
+    border-radius:12px ;
+    padding: 10px 30px;
+    
+}
+.container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+    
+
+}
+.box-container{
+    width: 600px;
+    height: 400px;
+} 
+.ir{
+    font-weight: bold;
+    font-size:3.5rem;
+    opacity: 100%;
+
+}
+.pr{
+    font-weight:400;
+    font-size: 1.25rem;
+}
+.btn-b{
+    background-color:black;
+    width: 197px;
+    height: 50px;
+    border-radius:12px ;
+    padding: 10px 30px;
+    color: white;
+    border: none;
+}
+.ss{
+    max-width:50px;
+    max-height: 40px;
+    padding-top: 5px;
+}
+@media screen and (max-width:576px) {
+   
+    .head2,
+    .head3,
+    .container,
+    .box,
+    .box-container{
+        flex-direction: column-reverse;
+        overflow-x: hidden;
+        margin: 0 auto;
+        padding: 0 auto;}
+    
+    .head3,
+    .btn,
+    .school{
+        visibility: hidden;
+    }
+    .box-container{
+        width: 350px;
+        text-align: center;}
+        
+    .head{
+      padding-left: 0%;
+      margin-top: 10%;
+      
+      height:0px;
+    }
+    .ir{
+        font-weight: bold;
+        font-size: 2rem;
+        
+    }
+    
+}
