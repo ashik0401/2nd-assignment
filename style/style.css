@@ -99,8 +99,45 @@ li > a{
     max-height: 40px;
     padding-top: 5px;
 }
-@media screen and (max-width:576px) {
-   
+.bg{
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+.st{ 
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    font-weight: bold;
+    font-size: 2.875rem;
+    color:rgba(0, 0, 0, 1) ;
+    
+}
+.standard-box{
+    padding: 0 140px;
+    padding-bottom: 200px;
+    text-align: center;
+    gap: 400px;
+}
+.img1{
+    background-color:rgba(222, 245, 255, 1) ;
+    border-radius: 18.86px;
+    box-shadow: inset rgba(0, 0, 0, 0.05);
+    
+    
+    border: 2px solid rgba(222, 245, 255, 1);
+    
+}
+
+    
+
+
+
+
+@media screen and (max-width:576px){
+
+     
     .head2,
     .head3,
     .container,
@@ -131,5 +168,4 @@ li > a{
         font-size: 2rem;
         
     }
-    
-}
+}  
