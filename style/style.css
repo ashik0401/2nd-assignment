@@ -270,7 +270,7 @@ li > a{
     max-width: 800px;
     grid-row: span 2 ;
     width: 750px;
-    max-height: 735px;
+    max-height: 775px;
     background-color: rgba(255, 255, 255, 1);
     border-radius:16px ;
    
@@ -344,7 +344,8 @@ li > a{
     font-size: 0.95rem;
     color: rgba(102, 102, 102, 1);
     padding-top: 47.93px;
-    padding-bottom: 34.52px;}
+    
+}
 .e{
         padding-bottom: 60px;
         padding-top: 80px;
@@ -386,8 +387,10 @@ li > a{
    
 }
 .p{
-    font-weight: 400;
-    font-size:1.25rem ;
+    font-weight:bold;
+    font-size:0.9rem ;
+    padding:19.17px 38.79px 28.76px 37.91px ;
+
 }
 .xc{
     font-weight: bold;
