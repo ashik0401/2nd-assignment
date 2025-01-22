@@ -576,7 +576,7 @@ li > a{
     }
     
     .collage{
-        column-gap: 0%;
+        column-gap: 5px;
     }
    .hero{
     width: 380px;
