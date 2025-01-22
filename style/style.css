@@ -8,6 +8,11 @@
     margin: 0 auto;
     
 }
+#marquee{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+}
 .font{
     font-size:1.25rem
 }
@@ -541,7 +546,7 @@ li > a{
     .footer1{
         width:100%;
     }
-
+   
 
     
 
