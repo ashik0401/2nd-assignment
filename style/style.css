@@ -148,7 +148,8 @@ li > a{
     background-image: url("../assets/bgg.png");
     background-position: center;
     background-size: cover;
-    width: 100%;
+    
+   
     
 
     
@@ -156,6 +157,9 @@ li > a{
 }
 .story{
     margin: 0 140px;
+    justify-items: center;
+    
+    
 }
 .st{ 
     justify-content: center;
@@ -240,6 +244,15 @@ li > a{
     font-size: 40px;
     visibility: hidden;
 }
+.gradient{
+    background: 
+    linear-gradient(to top, rgba(249, 220, 170, 1), rgba(0, 0, 0, 0)),
+    url('../assets/bgg.png');
+    background-position: center; 
+    background-size: cover;   
+    
+    
+}
 .stories{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -257,6 +270,7 @@ li > a{
     max-width: 800px;
     grid-row: span 2 ;
     width: 750px;
+    max-height: 735px;
     background-color: rgba(255, 255, 255, 1);
     border-radius:16px ;
    
@@ -334,6 +348,8 @@ li > a{
 .e{
         padding-bottom: 60px;
         padding-top: 80px;
+        
+        
     }
 
 .ten{
@@ -421,7 +437,7 @@ li > a{
     .standard-box{
         flex-direction: column;
         padding: 0 0;
-        row-gap: 10px;
+        gap:12.3px; 
         
     }
     .standard{
@@ -528,7 +544,7 @@ li > a{
         margin: 0% 0%;
     }
 .e{
-       margin-left: 62%;
+    margin-left: 62%;
     }
     .ten{
         flex-direction: column;
