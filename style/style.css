@@ -432,7 +432,8 @@ li > a{
         flex-direction: column-reverse;
         overflow-x: hidden;
         margin: 0 auto;
-        padding: 0 auto;}
+        padding: 0 auto;
+        }
 
     .standard-box{
         flex-direction: column;
@@ -455,7 +456,10 @@ li > a{
     }
     .box-container{
         width: 350px;
-        text-align: center;}
+        text-align: center;
+    
+        }
+
         
     .head{
       padding-left: 0%;
@@ -464,6 +468,7 @@ li > a{
       height:0px;
       border: 1px solid orange;
       padding-top: 70px;
+      
       
     }
     .ir{
@@ -509,16 +514,14 @@ li > a{
       display: none;
       
     }
-    .collage{ 
-      
         
-        
-}
+
 .gradient{
     margin-left: 0% ;
     padding-left: 0%;
     padding-right: 0%;
     margin-right: 0%;
+    overflow-x: hidden;
 }
     .collage{
         padding: 0% 5px;
@@ -527,8 +530,8 @@ li > a{
     }
    
 .hg img{
-    max-width: 220px;
-    max-height:150px;
+    max-width: 180px;
+    max-height:120px;
 }
 .per{ 
     font-size:1rem;
@@ -544,7 +547,7 @@ li > a{
         margin: 0% 0%;
     }
 .e{
-    margin-left: 62%;
+    margin-left: 50%;
     }
     .ten{
         flex-direction: column;
@@ -567,7 +570,17 @@ li > a{
     .footer1{
         width:100%;
     }
-   
+    .hg{
+        width:180px ;
+        
+    }
+    
+    .collage{
+        column-gap: 0%;
+    }
+   .hero{
+    width: 380px;
+   }
 
     
 
