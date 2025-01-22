@@ -144,7 +144,12 @@ li > a{
     background-size: cover;
     width: 100%;
     
+
     
+    
+}
+.story{
+    margin: 0 140px;
 }
 .st{ 
     justify-content: center;
@@ -166,26 +171,28 @@ li > a{
 }
 
 
-.img1{
-    border: 2px solid;
-    border-radius: 18.86px;
-    box-shadow: inset rgba(0, 0, 0, 0.05);
-   
-    
-    
-    
+.img1 img{
+    padding-top: 20px;
 }
 .be{
-    border: 1px solid rgba(100, 200, 255, 1);
-    background-color:rgba(222, 245, 255, 1); 
+    background: linear-gradient(to bottom,rgba(222, 245, 255, 1), rgba(255, 255, 255, 1));
+        box-shadow: inset 0 0 5px 3px rgba(222, 245, 255, 1);
+        border-radius: 18.86px;
+      
+
 }
 .hey{
-    border: 1px solid rgba(240, 170, 0, 1);
-    background-color:rgba(255, 244, 220, 1); 
+    background: linear-gradient(to bottom,rgba(255, 244, 220, 1), rgba(255, 255, 255, 1));
+    box-shadow: inset 0 0 5px 3px rgba(255, 244, 220, 1);
+    border-radius: 18.86px;
+  
 }
 .bd{
-    border: 1px solid rgba(135, 0, 255, 1);
-    background-color:rgba(242, 232, 255, 1); 
+    background: linear-gradient(to bottom,rgba(242, 232, 255, 1), rgba(255, 255, 255, 1));
+        box-shadow: inset 0 0 5px 3px rgba(242, 232, 255, 1);
+        border-radius: 18.86px;
+      
+      
 }
 .hover{
     cursor: pointer;
@@ -227,40 +234,49 @@ li > a{
     font-size: 40px;
     visibility: hidden;
 }
-.stories1{
-    grid-area: "stories1";
-}
-.stories2{
-    grid-area: "stories2";
-}
-.stories3{
-    grid-area: "stories3";
-}
-.stories4{
-    grid-area: "stories4";
-}
-.stories5{
-    grid-area: "stories5";
+.stories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
 }
 
-.stories{
-    padding: 0 140px;
-}
 .our{
     display: flex;
     justify-content: center;
 
 }
 .stories1{
-    border: 2px solid ;
+   
     max-width: 800px;
+    grid-row: span 2 ;
+    width: 750px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius:16px ;
+   
+}
+.stories2{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius:16px ;
+   
+}
+.stories3{
+    background-color: rgba(255, 255, 255, 1);
+    border-radius:16px ;
+   
+}
+.stories4{
+    background-color:rgba(255, 255, 255, 1);
+    border-radius:16px ;
+}
+.stories5{
+    background-color:rgba(255, 255, 255, 1);
+    border-radius:16px ;
+   
+}
 
-}
-.stories1 img{
-     max-width:100%;
-     height: auto;
-     
-}
+
+
 .date{
     font-weight: 500;
     font-size:0.95rem ;
@@ -276,6 +292,62 @@ li > a{
 
 
 }
+.six img{
+    width: 750px;
+    border-top-left-radius:16px ;
+    border-top-right-radius:16px ;
+}
+.seven{
+    padding-left: 38.05px;
+}
+.collage{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+
+   
+.hg img{
+    height: 250px;
+    width: 410px;
+    border-top-left-radius:16px ;
+    border-top-right-radius: 16px;
+
+}
+.p{
+   padding-top: 19.17px;
+   padding-bottom: 28.55px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color:  rgba(0, 0, 0, 1);
+   
+  
+
+}
+.m{
+    padding-top: 33.56px;
+}
+.w{
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: rgba(102, 102, 102, 1);
+    padding-top: 47.93px;
+    padding-bottom: 34.52px;
+}
+.gradient{
+   
+   
+}
+.e{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+
 
     
 
@@ -300,6 +372,9 @@ li > a{
         padding: 0 0;
         row-gap: 10px;
         
+    }
+    .standard{
+        max-width: ;
     }
     .st{
         font-weight: bold;
@@ -363,10 +438,45 @@ li > a{
     .head{
         border-bottom: 2px solid orange;
     }
-
+    .stories1{
+      display: none;
+      
+    }
+    .collage{ 
+      
+        
+        
+}
+.gradient{
+    margin-left: 0% ;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+    .collage{
+        padding: 0% 5px;
+        
+      
+    }
+   
+.hg img{
+    max-width: 220px;
+    max-height:150px;
+}
+.p{
+    font-size:0.5rem;
+   
+}
+.date{
+    font-size: 0.5rem;
+}
+    .story{
+        margin: 0% 0%;
+    }
+    .e{
+        margin: 0 0%;
+    }
     
-    
-
 
 
 
