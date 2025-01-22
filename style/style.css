@@ -514,13 +514,15 @@ li > a{
     max-width: 220px;
     max-height:150px;
 }
-.p{ display: flex;
-    font-size:0.5rem;
-    flex-wrap: break-word;
+.per{ 
+    font-size:1rem;
+    
    
 }
 .date{
     font-size: 0.5rem;
+    font-family: "Raleway", serif;
+    font-weight: 500;
 }
 .story{
         margin: 0% 0%;
@@ -540,7 +542,10 @@ li > a{
         padding-left: 0%;
     }
     .p{
-        font-size: 1rem;
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding-top:14.27px ;
+        justify-content: center;
         
     }
     .footer1{
